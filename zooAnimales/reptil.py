@@ -10,6 +10,7 @@ class Reptil(Animal):
         super().setEdad(edad)
         super().setHabitat(habitat)
         super().setGenero(genero)
+        super().setZona(None)
         self._colorEscamas = colorEscamas
         self._largoCola = largoCola
         Reptil._listado.append(self)

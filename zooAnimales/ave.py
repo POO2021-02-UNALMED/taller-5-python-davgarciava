@@ -10,6 +10,7 @@ class Ave(Animal):
         super().setEdad(edad)
         super().setHabitat(habitat)
         super().setGenero(genero)
+        super().setZona(None)
         self._colorPlumas = colorPlumas
         Ave._listado.append(self)
 	

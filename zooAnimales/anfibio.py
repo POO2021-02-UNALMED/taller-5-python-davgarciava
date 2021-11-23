@@ -10,6 +10,7 @@ class Anfibio(Animal):
         super().setEdad(edad)
         super().setHabitat(habitat)
         super().setGenero(genero)
+        super().setZona(None)
         self._colorPiel = colorPiel
         self._venenoso = venenoso
         Anfibio._listado.append(self)

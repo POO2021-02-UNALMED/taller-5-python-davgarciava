@@ -10,6 +10,7 @@ class Pez(Animal):
         super().setEdad(edad)
         super().setHabitat(habitat)
         super().setGenero(genero)
+        super().setZona(None)
         self._colorEscamas = colorEscamas
         self._cantidadAletas = cantidadAletas
         Pez._listado.append(self)
