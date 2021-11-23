@@ -1,5 +1,3 @@
-from animal import Animal
-
 class Ave(Animal):
     _listado = []
     halcones = 0
