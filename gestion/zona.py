@@ -1,5 +1,5 @@
 class Zona:
-    def __init__(self, nombre, zoo):
+    def __init__(self, nombre, zoo = None):
         self._nombre = nombre
         self._zoo = zoo
         self._animales = []
@@ -10,7 +10,7 @@ class Zona:
         
     def cantidadAnimales(self):
         cantidadAnimales = 0
-        for i in self.animales:
+        for i in self._animales:
             cantidadAnimales += 1
         return cantidadAnimales
         
