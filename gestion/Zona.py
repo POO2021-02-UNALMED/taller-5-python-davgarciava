@@ -1,4 +1,4 @@
-import zooAnimales.Animal
+from zooAnimales.animal import Animal
 
 class Zona:
     
